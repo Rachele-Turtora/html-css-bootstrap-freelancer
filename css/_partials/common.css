@@ -1,0 +1,24 @@
+.height-200{
+    height: 200px;
+}
+
+.height-100{
+    height: 100px;
+}
+
+header{
+    background-color: var(--my-bg-darkblue);
+}
+
+main section:nth-child(odd){
+    background-color: var(--my-bg-green);
+    color: white;
+}
+
+.footer-top{
+    background-color: var(--my-bg-darkblue-2);
+}
+
+.footer-bottom{
+    background-color: var(--my-bg-darkblue);
+}
