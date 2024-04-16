@@ -19,6 +19,14 @@ main section:nth-child(odd){
     color: white;
 }
 
+#contact-me .form-floating textarea{
+    height: 150px;
+}
+
+#contact-me button{
+    background-color: var(--my-bg-green);
+}
+
 .footer-top{
     background-color: var(--my-bg-darkblue-2);
 }
