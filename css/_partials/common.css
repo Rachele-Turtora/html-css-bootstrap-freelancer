@@ -11,10 +11,8 @@ main section:nth-child(odd){
     color: var(--cl-white);
 }
 
-.my-img-container{
+.avatar{
     width: 250px;
-    height: 250px;
-    margin: 0 auto;
 }
 
 #contact-me .form-floating textarea{
