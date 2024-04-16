@@ -15,10 +15,26 @@ main section:nth-child(odd){
     color: white;
 }
 
+.navbar ul .nav-link{
+    color: white;
+}
+
 .footer-top{
     background-color: var(--my-bg-darkblue-2);
 }
 
 .footer-bottom{
     background-color: var(--my-bg-darkblue);
+}
+
+.white-line{
+    background-color: var(--cl-white);
+}
+
+.dark-line{
+    background-color: var(--my-bg-darkblue);
+}
+
+.separator i .dark-star{
+    color: var(--my-bg-darkblue);
 }
