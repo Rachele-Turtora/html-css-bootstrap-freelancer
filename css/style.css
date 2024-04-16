@@ -1,2 +1,7 @@
+/* CORE */
 @import url("./_partials/variables.css");
 @import url("./_partials/common.css");
+
+/* COMPONENTS */
+@import url("./_components/separator.css");
+@import url("./_components/social.css");

@@ -1,0 +1,15 @@
+.separator .line{
+    border: none;
+    display: inline-block;
+    width: 10%;
+    height: 4px;
+    margin: 30px 10px;
+    background-color: var(--cl-white);
+    vertical-align: middle;
+}
+
+.separator i{
+    vertical-align: middle;
+    font-size: 20px;
+}
+

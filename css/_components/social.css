@@ -1,0 +1,5 @@
+.icon{
+    border: 1px solid var(--cl-white);
+    border-radius: 50%;
+    padding: 20px;
+}
