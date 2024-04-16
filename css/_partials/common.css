@@ -1,22 +1,14 @@
-.height-200{
-    height: 200px;
-}
-
-.height-100{
-    height: 100px;
-}
-
 header{
     background-color: var(--my-bg-darkblue);
 }
 
 main section:nth-child(odd){
     background-color: var(--my-bg-green);
-    color: white;
+    color: var(--cl-white);
 }
 
 .navbar ul .nav-link{
-    color: white;
+    color: var(--cl-white);
 }
 
 #contact-me .form-floating textarea{
@@ -45,4 +37,8 @@ main section:nth-child(odd){
 
 .separator i .dark-star{
     color: var(--my-bg-darkblue);
+}
+
+.my-color-green{
+    color: var(--my-bg-green);
 }
