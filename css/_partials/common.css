@@ -12,7 +12,7 @@ main section:nth-child(odd){
 }
 
 .avatar{
-    width: 250px;
+    max-width: 250px;
 }
 
 #contact-me .form-floating textarea{
@@ -28,14 +28,6 @@ main section:nth-child(odd){
 }
 
 .footer-bottom{
-    background-color: var(--my-bg-darkblue);
-}
-
-.white-line{
-    background-color: var(--cl-white);
-}
-
-.dark-line{
     background-color: var(--my-bg-darkblue);
 }
 

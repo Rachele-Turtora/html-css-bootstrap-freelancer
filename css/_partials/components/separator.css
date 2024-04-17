@@ -1,14 +1,22 @@
-.separator .line{
-    border: none;
-    display: inline-block;
-    width: 10%;
-    height: 4px;
-    margin: 30px 10px;
-    vertical-align: middle;
+.my-separator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.separator i{
-    vertical-align: middle;
-    font-size: 20px;
+.my-separator > *{
+    padding: 10px 20px;
 }
+
+.my-separator:before,
+.my-separator:after{
+    content: '';
+    background-color: currentColor;
+    height: 4px;
+    width: 10%;
+    max-width: 200px;
+    display: block;
+}
+
+
 
